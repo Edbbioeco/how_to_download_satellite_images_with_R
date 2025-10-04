@@ -9,7 +9,7 @@ Our first step is to library the required packages:
   filter our shapefile, to get only Recife area feature;
 
 - We use
-  [maptiles](https://github.com/riatelab/maptilesmaptiles%20Github%20page)
+  [maptiles](https://github.com/riatelab/maptiles)
   package to download our satellite image, onde raster class;
 
 - We use [tidyterra](https://dieghernan.github.io/tidyterra) package to
@@ -83,7 +83,7 @@ area. We use `maptiles::get_tiles()`, informing:
 
 - Which imagery we want to use (`provider`). `"Esri.WorldImagery"` let
   us to use a raster such as Google Earth. Check [maptiles Github
-  page](https://github.com/riatelab/maptilesmaptiles%20Github%20page) to
+  page](https://github.com/riatelab/maptiles) to
   see more imageries options;
 
 - Zoom (`zoom`), to set how resoluted the raster let be. See
@@ -144,4 +144,5 @@ image |>
 ```
 
     ## |---------|---------|---------|---------|=========================================                                          
+
 
