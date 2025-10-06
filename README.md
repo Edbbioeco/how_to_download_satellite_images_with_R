@@ -49,7 +49,7 @@ recife <- geobr::read_municipality(year = 2019) |>
 
 ## Visualizing
 
-Next, lets vicualize our base shapefile, using a ggplot plot.
+Next, lets visualize our base shapefile, using a ggplot plot.
 
 ``` r
 recife
@@ -144,5 +144,6 @@ image |>
 ```
 
     ## |---------|---------|---------|---------|=========================================                                          
+
 
 
